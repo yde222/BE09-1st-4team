@@ -1,6 +1,6 @@
-package com.starfoxKiosk.user.order.repository;
+package com.starfoxKiosk.user.pay.repository;
 
-import com.starfoxKiosk.user.order.domain.Order;
+import com.starfoxKiosk.user.pay.domain.Order;
 
 import java.util.ArrayList;
 import java.util.List;

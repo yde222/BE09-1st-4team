@@ -1,4 +1,4 @@
-package com.starfoxKiosk.user.order.domain;
+package com.starfoxKiosk.user.pay.domain;
 
 public class Order {
 
@@ -21,11 +21,11 @@ public class Order {
         this.orderId = orderId;
     }
 
-    public int getCustomerId() {
+    public int getUserId() {
         return userId;
     }
 
-    public void setCustomerId(int userId) {
+    public void setId(int userId) {
         this.userId = userId;
     }
 

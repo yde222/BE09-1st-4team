@@ -3,15 +3,15 @@ package com.starfoxKiosk.user.membership.domain;
 public class Membership {
     private int membershipId;
     private String membershipName;
-    private int thresholdAmount;
+    private int defaultPrice;
     private int customerId;
 
     public Membership() {}
 
-    public Membership(int membershipId, String membershipName, int thresholdAmount, int customerId) {
+    public Membership(int membershipId, String membershipName, int defaultPrice, int customerId) {
         this.membershipId = membershipId;
         this.membershipName = membershipName;
-        this.thresholdAmount = thresholdAmount;
+        this.defaultPrice = defaultPrice;
         this.customerId = customerId;
     }
 
@@ -31,12 +31,12 @@ public class Membership {
         this.membershipName = membershipName;
     }
 
-    public int getThresholdAmount() {
-        return thresholdAmount;
+    public int getDefaultPrice() {
+        return defaultPrice;
     }
 
-    public void setThresholdAmount(int thresholdAmount) {
-        this.thresholdAmount = thresholdAmount;
+    public void setDefaultPrice(int defaultPrice) {
+        this.defaultPrice = defaultPrice;
     }
 
     public int getCustomerId() {
@@ -52,7 +52,7 @@ public class Membership {
         return "Membership{" +
                 "membershipId=" + membershipId +
                 ", membershipName='" + membershipName + '\'' +
-                ", thresholdAmount=" + thresholdAmount +
+                ", defaultPrice=" + defaultPrice +
                 ", customerId=" + customerId +
                 '}';
     }

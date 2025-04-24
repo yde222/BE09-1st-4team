@@ -1,4 +1,4 @@
-package com.starfoxKiosk.user.order.domain;
+package com.starfoxKiosk.user.pay.domain;
 
 public class OrderItem {
     private int orderId;
