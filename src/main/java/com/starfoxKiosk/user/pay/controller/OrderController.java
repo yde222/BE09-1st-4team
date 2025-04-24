@@ -21,17 +21,15 @@ public class OrderController {
         Scanner sc = new Scanner(System.in);
 
         while (true) {
-            System.out.println("\n===== 주문 관리 =====");
-            System.out.println("1. 주문 등록");
-            System.out.println("2. 주문 목록 조회");
-            System.out.println("0. 종료");
-            System.out.print("선택: ");
+
+
+
 
             int choice = sc.nextInt();
 
             switch (choice) {
                 case 0:
-                    System.out.println("주문 관리를 종료합니다.");
+
                     return;
                 case 1:
                     inputOrder();

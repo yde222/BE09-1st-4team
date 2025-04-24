@@ -11,6 +11,11 @@ public class MemshipService {
 
     public MemshipService() {
         //Dummy data
-        memberships.put("01011112222", new Membership("01011112222","Silver",10000,1));
+        memberships.put("01011112222", new Membership(01011112222,"Silver",10000,1));
+        memberships.put("01033334444", new Membership(01033334444,"Silver",10000,1));
+    }
+
+    public Membership findByPhone(String phone) {
+        return memberships.get(phone);
     }
 }
